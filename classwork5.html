@@ -2,12 +2,57 @@
 <html lang="en">
 <head>
     <title>Simple Web Paget</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 40px;
+        }
+        p::first-line {
+            font-weight: bold;
+        }
+        p::first-letter {
+            font-size: xx-large;
+            color: red;
+        }
+        .headings h3+h3 {
+            color: green;
+        }
+        ul li:first-child a {
+            color: red;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+
     <section>
         <h1>About Birds</h1>
-        <p></p>
+        <p> This is the first paragraph.Birds make shelter and find habitat on land and sea depending on the type of the species of the bird.
+            Birds are warm-blooded vertebrates with feathers,beaks,and wings,most of which can fly.</p>
+        <p> This is the second paragraphBirds tend to live together and have a community living and exibit social behaviour just like human beings.</p>
     </section>
+    <div class="headings">
+        <h3>First Subheading</h3>
+        <h3>Second Subheading</h3>
+    </div>
+    <div class="link">
+        <ul>
+            <li><a href="a">Home</a></li>
+            <li><a href="a">Contact</a></li>
+            <li><a href="a">Address</a></li>
+        </ul>
+
+    </div>
 
     
 </body>
